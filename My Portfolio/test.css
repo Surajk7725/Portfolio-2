@@ -1,0 +1,562 @@
+.phone-number {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Typography {
+    font-family: Arial, sans-serif;
+  }
+  
+  .Typography--h1 {
+    padding: 8rem;
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center; 
+  }
+  
+  .Typography--blue-gray {
+    color: #607d8b;
+  }
+
+  .text-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .text-container--lead {
+    font-size: 1.25rem; 
+    text-align: center; 
+    line-height: 1.5;
+    margin-top: -7rem;
+    margin-bottom: 3rem;
+  }
+  
+  .text-container--gray {
+    color: #777; 
+  }
+
+  .button {
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:10px;
+    margin-right: 50px;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+  }
+  
+  @media (min-width: 1024px) {
+    .lg\:flex {
+      display: flex;
+    }
+  }
+
+  .alpha {
+    padding:60px;
+    margin-left:-50px;
+    text-align: center; 
+    color: #374151; 
+    font-weight: 350; 
+    text-transform: uppercase;
+    margin-bottom: -50px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-left: -40px;
+}
+
+.wrapper .icon {
+    border-radius: 50%;
+    padding: -5px;
+    margin: 15px;
+    width: 40px; 
+    height: 40px; 
+    font-size: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+}
+
+.wrapper .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.wrapper .icon.github i,
+.wrapper .icon.linkedin i {
+    color: black;
+}
+
+.about-us{
+  position: relative;
+  height: max-content;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.pic{
+  height: 475px;
+  width:  350px;
+  margin-top: 100px;
+}
+
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text{
+  width: 540px;
+}
+
+.text h2{
+  font-weight: bold;
+  font-size: 3rem; 
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #607d8b;
+}
+
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+span{
+  color: #4070f4;
+}
+
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-blue-gray {
+  color: #607d8b;
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.25rem; 
+  line-height: 1.75; 
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.centered-text {
+  text-align: center; 
+  width: 100%; 
+}
+
+.px-4 {
+  padding-left: 1rem; 
+  padding-right: 1rem; 
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.lg\:w-6\/12 {
+  width: 50%; 
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 55px;
+  margin-bottom: 120px;
+}
+
+.card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  border-bottom: 1px solid #ddd; 
+}
+
+.card-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.button-1 {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+  margin-top: auto;
+}
+
+.footer > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 0px 30px 0px 30px;
+  align-items: center;
+}
+
+.container 
+{
+   display: flex;
+   flex-direction: column;
+   width: 100%; 
+}
+
+.text-center 
+{
+   text-align: left; 
+}
+
+.font-normal 
+{
+   font-weight: 400; 
+}
+
+.text-gray-700 
+{ 
+  color: #4A5568; 
+}
+
+.button-2 {
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+  margin-left: auto;
+}
+
+/* For screens smaller than 768px (phones) */
+@media (max-width: 767px) {
+  .phone-number {
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .Typography--h1 {
+    padding: 4rem;
+    font-size: 2rem;
+  }
+
+  .text-container--lead {
+    margin-top: -3rem;
+  }
+
+  .center {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .alpha {
+    padding: 30px;
+    margin-left: -30px;
+    margin-bottom: -30px;
+  }
+
+  .wrapper {
+    margin-left: -30px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic {
+    height: auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .card-row {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+/* For screens between 768px and 1023px (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Typography--h1 {
+    padding: 6rem;
+    font-size: 2.5rem;
+  }
+
+  .text-container--lead {
+    margin-top: -5rem;
+  }
+
+  .center {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .alpha {
+    padding: 40px;
+    margin-left: -40px;
+    margin-bottom: -40px;
+  }
+
+  .wrapper {
+    margin-left: -40px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pic {
+    height: auto;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .card-row {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+/* For screens 1024px and larger (desktops) */
+@media (min-width: 1024px) {
+  .phone-number {
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    padding: 15px 10px;
+  }
+
+  .Typography--h1 {
+    padding: 8rem;
+    font-size: 3rem;
+  }
+
+  .text-container--lead {
+    margin-top: -7rem;
+  }
+
+  .center {
+    height: 5vh;
+  }
+
+  .button {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+
+  .alpha {
+    padding: 60px;
+    margin-left: -50px;
+    margin-bottom: -50px;
+  }
+
+  .wrapper {
+    margin-left: -40px;
+  }
+
+  .about {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .pic {
+    height: 475px;
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+
+  .card-row {
+    gap: 50px;
+  }
+
+  .card {
+    width: 300px;
+  }
+}
+
+/* For screens smaller than 414px (iPhones) - Project Cards */
+@media (max-width: 414px) {
+  .container.mx-auto.mb-20.text-center {
+    padding: 0 10px;
+  }
+
+  .card-row {
+    gap: 10px;
+  }
+
+  .card {
+    width: calc(50% - 5px); 
+  }
+
+  .card img {
+    height: 150px; 
+  }
+
+  .card-content h3 {
+    font-size: 18px; 
+  }
+
+  .card-content p {
+    font-size: 14px; 
+  }
+}
+
+/* For screens smaller than 576px (Samsung and iPhones) - About Me */
+@media (max-width: 575px) {
+  .pic {
+    height: auto; 
+    width: 80%; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .text {
+    width: 90%; 
+  }
+
+  .text h2 {
+    font-size: 2rem; 
+  }
+
+  .text h5 {
+    font-size: 18px; 
+    margin-bottom: 15px;
+  }
+
+  .text p {
+    font-size: 16px; 
+    line-height: 1.5;
+  }
+}
+
+/* For Nest Hub (1024x600) - About Me */
+@media (device-width: 1024px) and (device-height: 600px) {
+  .pic {
+    height: auto; 
+    width: 70%; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .text {
+    width: 90%; 
+  }
+
+  .text h2 {
+    font-size: 2rem; 
+  }
+
+  .text h5 {
+    font-size: 16px; 
+    margin-bottom: 15px;
+  }
+
+  .text p {
+    font-size: 14px; 
+    line-height: 1.5;
+  }
+}
+
+
+  
+  
+  
+  
+  

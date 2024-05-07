@@ -25,7 +25,7 @@ This is my personal portfolio website built using HTML and CSS. It showcases my 
 
 ## Acknowledgements
 
-I would like to thank my best friend "K. Rohith" for his valuable feedback and support during the development of this project.
+I would like to thank my best friend "K. Rohith" for his valuable feedback and support during the development of my portfolio.
 
 ## Deployment
 

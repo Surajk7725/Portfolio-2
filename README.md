@@ -29,4 +29,4 @@ I would like to thank my best friend "K. Rohith" for his valuable feedback and s
 
 ## Deployment
 
-The website is deployed using GitHub Pages and can be accessed [here](your-portfolio-url).
+The website is deployed using GitHub Pages and can be accessed [here](https://surajkumar-25-delta.vercel.app/).
